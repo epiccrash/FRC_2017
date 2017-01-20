@@ -13,6 +13,13 @@ public class AutonomousCommand extends Command {
 		
 	}
 	
+	public void AutonomousCommand(int i){
+		
+		if(i < -1 || i > 1){
+			
+		}
+	}
+	
 	@Override
 	// Make this return true when this Command no longer needs to run execute()
 	protected boolean isFinished() {
